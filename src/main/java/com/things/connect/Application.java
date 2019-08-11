@@ -1,5 +1,5 @@
 
-package com.bosch.thingbook;
+package com.things.connect;
 
 
 import org.springframework.boot.SpringApplication;

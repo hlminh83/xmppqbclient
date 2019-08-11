@@ -1,4 +1,4 @@
-package com.bosch.thingbook;
+package com.things.connect;
 
 import java.io.IOException;
 import java.security.KeyManagementException;
@@ -24,8 +24,8 @@ import org.jxmpp.jid.EntityBareJid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import com.quickblox.chat.JIDHelper;
-import com.quickblox.chat.connections.tcp.QBTcpConfigurationBuilder;
+import com.qb.chat.JIDHelper;
+import com.qb.chat.connections.tcp.QBTcpConfigurationBuilder;
 
 
 @Component
@@ -40,6 +40,7 @@ public class QBChatService {
 //	private static QBChatService instance;
 	private boolean useStreamManagement = false;
 
+	String chatServerEndpoint = "chat-<changedhere>.quickblox.com";
 	
 //	public static QBChatService getInstance() {
 //		if (instance == null) {
@@ -70,7 +71,7 @@ public class QBChatService {
 			throw new AlreadyLoggedInException();
 		} else {
 //            this.checkValidSessionToken(user);
-			String chatServerEndpoint = "chat-boschthingbook.quickblox.com";
+			
 			JIDHelper.INSTANCE.setChatServerEndpoint(chatServerEndpoint);
 			String jidLocalpart = JIDHelper.INSTANCE.getJidLocalpart(user);
 			this.connect();

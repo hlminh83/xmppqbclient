@@ -1,4 +1,4 @@
-package com.bosch.thingbook;
+package com.things.connect;
 
 import java.security.KeyManagementException;
 import java.security.NoSuchAlgorithmException;
@@ -29,8 +29,8 @@ public class QuickBloxService {
 	private String userId;
 	
 	private final int port = 5222; //non ssl port
-	private final String xmppDomain = "chat-boschthingbook.quickblox.com"; 
-	private final String xmppHost = "chat-boschthingbook.quickblox.com";
+	private final String xmppDomain = "chat-<changehere>.quickblox.com"; 
+	private final String xmppHost = "chat-<changehere>.quickblox.com";
 	
 //	private final String xmppDomain = "chat.quickblox.com"; 
 //	private final String xmppHost = "chat.quickblox.com";

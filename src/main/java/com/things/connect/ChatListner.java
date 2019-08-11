@@ -1,4 +1,4 @@
-package com.bosch.thingbook;
+package com.things.connect;
 
 import org.jivesoftware.smack.chat2.ChatManager;
 import org.springframework.stereotype.Component;

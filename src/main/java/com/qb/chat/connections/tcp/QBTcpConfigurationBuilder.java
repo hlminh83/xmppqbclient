@@ -3,10 +3,11 @@
 // (powered by Fernflower decompiler)
 //
 
-package com.quickblox.chat.connections.tcp;
+package com.qb.chat.connections.tcp;
 
-import com.quickblox.chat.connections.QBBaseXmppConfigurationBuilder;
 import javax.net.ssl.SSLContext;
+
+import com.qb.chat.connections.QBBaseXmppConfigurationBuilder;
 
 public class QBTcpConfigurationBuilder extends QBBaseXmppConfigurationBuilder<QBTcpConfigurationBuilder> {
     private int defaultSocketTimeOut = 60;

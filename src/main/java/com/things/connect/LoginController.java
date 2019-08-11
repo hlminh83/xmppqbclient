@@ -1,4 +1,4 @@
-package com.bosch.thingbook;
+package com.things.connect;
 
 import org.jivesoftware.smack.chat2.Chat;
 import org.jivesoftware.smack.chat2.IncomingChatMessageListener;
@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import com.quickblox.chat.QBSettings;
+import com.qb.chat.QBSettings;
 
 @Controller
 public class LoginController {

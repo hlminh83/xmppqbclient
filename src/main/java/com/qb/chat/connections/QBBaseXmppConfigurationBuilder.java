@@ -3,11 +3,11 @@
 // (powered by Fernflower decompiler)
 //
 
-package com.quickblox.chat.connections;
+package com.qb.chat.connections;
 
 import javax.net.SocketFactory;
 
-import com.quickblox.chat.QBSettings;
+import com.qb.chat.QBSettings;
 
 public abstract class QBBaseXmppConfigurationBuilder<T> {
     private boolean useTls = true;

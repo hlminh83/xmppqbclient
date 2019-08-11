@@ -1,4 +1,4 @@
-package com.bosch.thingbook;
+package com.things.connect;
 
 public class PAConfig {
 

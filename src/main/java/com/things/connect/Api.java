@@ -1,4 +1,4 @@
-package com.bosch.thingbook;
+package com.things.connect;
 
 import retrofit2.Call;
 import retrofit2.Callback;

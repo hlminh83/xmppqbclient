@@ -1,4 +1,4 @@
-package com.quickblox.chat.connections;
+package com.qb.chat.connections;
 
 import org.jivesoftware.smack.AbstractXMPPConnection;
 

@@ -1,4 +1,4 @@
-package com.bosch.thingbook;
+package com.things.connect;
 
 import java.security.KeyManagementException;
 import java.security.NoSuchAlgorithmException;
@@ -9,7 +9,7 @@ import org.jivesoftware.smack.packet.Message;
 import org.jxmpp.jid.EntityBareJid;
 import org.jxmpp.stringprep.XmppStringprepException;
 
-import com.quickblox.chat.QBSettings;
+import com.qb.chat.QBSettings;
 
 public class QuickbloxTest2 {
 	public static void sendChat1() throws InterruptedException, XmppStringprepException, KeyManagementException, NoSuchAlgorithmException {

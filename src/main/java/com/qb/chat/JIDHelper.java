@@ -3,9 +3,9 @@
 // (powered by Fernflower decompiler)
 //
 
-package com.quickblox.chat;
+package com.qb.chat;
 
-import com.bosch.thingbook.QBUser;
+import com.things.connect.QBUser;
 
 public enum JIDHelper {
     INSTANCE;

@@ -1,4 +1,4 @@
-package com.quickblox.chat.connections.tcp;
+package com.qb.chat.connections.tcp;
 
 public class QBTcpXmppConnection {
 

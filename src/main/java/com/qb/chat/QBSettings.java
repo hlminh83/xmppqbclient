@@ -1,4 +1,4 @@
-package com.quickblox.chat;
+package com.qb.chat;
 
 public class QBSettings {
 

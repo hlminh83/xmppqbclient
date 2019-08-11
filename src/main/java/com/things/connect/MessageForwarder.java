@@ -1,4 +1,4 @@
-package com.bosch.thingbook;
+package com.things.connect;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -15,7 +15,7 @@ import org.springframework.stereotype.Component;
 import com.jsunsoft.http.HttpRequest;
 import com.jsunsoft.http.HttpRequestBuilder;
 import com.jsunsoft.http.ResponseDeserializer;
-import com.quickblox.chat.QBSettings;
+import com.qb.chat.QBSettings;
 
 @Component
 public class MessageForwarder {
